@@ -1,0 +1,11 @@
+class Math {
+  class double(n) {
+    return n * 2;
+  }
+
+  class quadruple(n) {
+    return this.double(n) * 2;
+  }
+}
+
+print Math.quadruple(3);
